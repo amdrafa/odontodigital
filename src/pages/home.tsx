@@ -3,6 +3,12 @@ import logo from "../assets/odonto-digital-logo.png"
 import lucia from "../assets/lucia.png"
 import dash from "../assets/dash.png"
 import thumb from "../assets/thumb.png"
+import bosch from "../assets/bosch.png"
+import odontocompany from "../assets/odontocompany.png"
+import odontoexcelence from "../assets/odontoexcelence.png"
+import redeorto from "../assets/redeorto.png"
+import coife from "../assets/coife.png"
+import orthodontic from "../assets/orthodontic.png"
 import { AnimatedTexts } from "../components/benefits-animation"
 
 
@@ -21,8 +27,8 @@ export function Home() {
                 <span className="w-auto">Agenda cheia <span className="text-blue-600 font-bold">todos os dias</span></span>
             </div> */}
 
-            <div className="my-8 flex flex-col items-center gap-8">
-                <h2 className="text-2xl font-semibold">Nossos <span className="text-blue-500">resultados?</span></h2>
+            <div className="my-8 flex flex-col items-center gap-8 px-4">
+                <h2 className="text-2xl font-normal">Nossos <span className="text-blue-500">resultados:</span></h2>
 
 
                 <div className="flex items-center gap-2">
@@ -53,15 +59,16 @@ export function Home() {
             </div>
 
             <div className="flex flex-col items-center my-14 gap-8">
-                <h2 className="text-2xl font-semibold text-center">Como obtemos esse <span className="text-blue-500">resultado?</span></h2>
+                <h2 className="text-2xl font-normal text-center">Como obtemos esse <span className="text-blue-500 font-semibold">resultado?</span></h2>
 
-                <div className=" flex flex-col items-center">
+                <div className=" flex flex-col items-center px-10 text-center">
                     <div className="flex gap-4">
                         <Instagram className="w-16 h-16 mb-4" />
                         <Share2 className="w-16 h-16 mb-4" />
                     </div>
                     <div className="text-2xl">Implementação de</div>
                     <div className="text-blue-500 font-bold text-4xl">Tráfego Pago</div>
+                    <span className="text-gray-300 text-lg mt-4">Usamos estruturas de <span className="text-blue-500">campanhas validadas</span> para captação de possíveis pacientes qualificados.</span>
                 </div>
 
                 <div className="flex flex-col gap-4">
@@ -88,10 +95,11 @@ export function Home() {
 
                 <span className="text-5xl">+</span>
 
-                <div className=" flex flex-col items-center">
-                    <BarChartBig className="w-16 h-16 mb-4" />
+                <div className=" flex flex-col items-center px-10 text-center">
+                    <BarChartBig className="w-20 h-20 mb-4" />
                     <div className="text-2xl">Implementação de</div>
                     <div className="text-blue-500 font-bold text-4xl">Data Analytcs</div>
+                    <span className="text-gray-300 text-lg mt-4">Através das <span className="text-blue-500">métricas </span>coletadas, conseguimos analisar falhas e melhorias para tomar decisões <span className="text-blue-500">assertivas</span>. </span>
                 </div>
 
                 <div className="flex flex-col gap-4 px-6">
@@ -101,15 +109,15 @@ export function Home() {
             </div>
 
             <div className="flex flex-col gap-8 my-14">
-                <h2 className="text-2xl text-center flex flex-col font-normal">Outras empresas <span className="text-blue-500 font-semibold">satisfeitas</span></h2>
+                <h2 className="text-2xl text-center flex flex-col font-thin">Outras empresas <span className="font-normal">satisfeitas:</span></h2>
 
-                <div className="grid grid-cols-2">
-                    <span className="flex justify-center">asdsasad</span>
-                    <span className="flex justify-center">asdsasad</span>
-                    <span className="flex justify-center">asdsasad</span>
-                    <span className="flex justify-center">asdsasad</span>
-                    <span className="flex justify-center">asdsasad</span>
-                    <span className="flex justify-center">asdsasad</span>
+                <div className="grid grid-cols-2 gap-6 px-6 justify-center items-center my-6">
+                    <img width={140} src={bosch} alt="" />
+                    <img width={140} src={odontocompany} alt="" />
+                    <img width={140} src={odontoexcelence} alt="" />
+                    <img width={150} src={redeorto} alt="" />
+                    <img width={140} src={orthodontic} alt="" />
+                    <img width={140} src={coife} alt="" />
                 </div>
 
             </div>
@@ -123,7 +131,7 @@ export function Home() {
 
                     <div className="text-4xl font-bold">Alcançar esse <span className="text-blue-500">resultado</span></div>
 
-                    <span>(Gratúita e sem compromisso)</span>
+                    <span>(Reunião gratúita e sem compromisso)</span>
                 </div>
 
                 <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
