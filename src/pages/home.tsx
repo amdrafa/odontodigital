@@ -14,7 +14,7 @@ import { AnimatedTexts } from "../components/benefits-animation"
 
 export function Home() {
     return (
-        <main className="max-w-[100vw] min-h-screen bg-gradient-to-b from-blue-950 via-black to-blue-950 py-8 px-3 bg-cover antialiased" >
+        <main className="max-w-[100vw] min-h-screen bg-gradient-to-tr from-blue-950 via-black to-blue-950 py-8 px-3 bg-cover antialiased" >
             <header className="flex flex-1 justify-center">
                 <img width={150} src={logo} />
             </header>
