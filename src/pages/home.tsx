@@ -10,6 +10,7 @@ import redeorto from "../assets/redeorto.png"
 import coife from "../assets/coife.png"
 import orthodontic from "../assets/orthodontic.png"
 import { AnimatedTexts } from "../components/benefits-animation"
+import { Helmet } from "react-helmet";
 
 
 export function Home() {
@@ -27,7 +28,7 @@ export function Home() {
                 <span className="w-auto">Agenda cheia <span className="text-blue-600 font-bold">todos os dias</span></span>
             </div> */}
 
-            <div className="my-8 flex flex-col items-center gap-8 px-4">
+            <div className="mt-8  flex flex-col items-center gap-8 px-4">
                 <h2 className="text-2xl font-normal">Nossos <span className="text-blue-500">resultados:</span></h2>
 
 
@@ -55,7 +56,14 @@ export function Home() {
 
                 <AnimatedTexts />
 
-                <img src={thumb} alt="" />
+
+            </div>
+
+            <div className="border-[8px] rounded-lg border-blue-950 mb-6 mx-8">
+                <div dangerouslySetInnerHTML={{ __html: '<div id="vid_6570d1a827d3540009f7bde3" style="position:relative;width:100%;padding: 176.47058823529412% 0 0;"><img id="thumb_6570d1a827d3540009f7bde3" src="https://images.converteai.net/20fc57a9-9d12-47a2-b1f8-a9836bc4c0e0/players/6570d1a827d3540009f7bde3/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_6570d1a827d3540009f7bde3" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div>' }} />
+                <Helmet>
+                    <script type="text/javascript" id="scr_6570d1a827d3540009f7bde3">var s=document.createElement("script");s.src="https://scripts.converteai.net/20fc57a9-9d12-47a2-b1f8-a9836bc4c0e0/players/6570d1a827d3540009f7bde3/player.js",s.async=!0,document.head.appendChild(s);</script>
+                </Helmet>
             </div>
 
             <div className="flex flex-col items-center my-14 gap-8">
@@ -64,7 +72,7 @@ export function Home() {
                 <div className=" flex flex-col items-center px-10 text-center">
                     <div className="flex gap-4">
                         <Instagram className="w-16 h-16 mb-4" />
-                        <Share2 className="w-16 h-16 mb-4" />
+                        {/* <Share2 className="w-16 h-16 mb-4" /> */}
                     </div>
                     <div className="text-2xl">Implementação de</div>
                     <div className="text-blue-500 font-bold text-4xl">Tráfego Pago</div>
@@ -134,7 +142,9 @@ export function Home() {
                     <span>(Reunião gratúita e sem compromisso)</span>
                 </div>
 
-                <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
+                <a href="https://wa.me/47992479009">
+                    <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
+                </a>
             </div>
 
             <footer className="text-center py-2 mt-20">
