@@ -142,7 +142,7 @@ export function Home() {
                     <span>(Reunião gratúita e sem compromisso)</span>
                 </div>
 
-                <a href="https://wa.me/47992479009">
+                <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20processo%20de%20capta%C3%A7%C3%A3o%20de%20clientes%20pra%20fechar%20pacientes%20novos%20todos%20os%20dias.">
                     <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
                 </a>
             </div>
