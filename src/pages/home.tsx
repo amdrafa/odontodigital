@@ -32,7 +32,7 @@ export function Home() {
                 <h2 className="text-2xl font-normal">Nossos <span className="text-blue-500">resultados:</span></h2>
 
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 backdrop-blur-[120px] rounded-lg p-2 ">
                     <img width={100} src={lucia} alt="" />
                     <div className="text-3xl font-light flex flex-col">
                         <div>Lúcia</div>
