@@ -32,6 +32,12 @@ export function Home() {
                 <span className="w-auto">Agenda cheia <span className="text-blue-600 font-bold">todos os dias</span></span>
             </div> */}
 
+                <div className="px-4 my-10">
+                    <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20processo%20de%20capta%C3%A7%C3%A3o%20de%20clientes%20pra%20fechar%20pacientes%20novos%20todos%20os%20dias.">
+                        <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
+                    </a>
+                </div>
+
                 <div className="mt-8  flex flex-col items-center gap-8 px-4">
                     <h2 className="text-2xl font-normal">Nossos <span className="text-blue-500">resultados:</span></h2>
 
@@ -147,7 +153,7 @@ export function Home() {
                     </div>
 
                     <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20processo%20de%20capta%C3%A7%C3%A3o%20de%20clientes%20pra%20fechar%20pacientes%20novos%20todos%20os%20dias.">
-                        <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
+                        <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">AGENDAR CONSULTORIA GRATÚITA</button>
                     </a>
                 </div>
 
