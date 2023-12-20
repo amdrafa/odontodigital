@@ -4,6 +4,7 @@ import lucia from "../assets/lucia.png"
 import dash from "../assets/dash.png"
 import thumb from "../assets/thumb.png"
 import bosch from "../assets/bosch.png"
+import whats from "../assets/whats.png"
 import odontocompany from "../assets/odontocompany.png"
 import odontoexcelence from "../assets/odontoexcelence.png"
 import redeorto from "../assets/redeorto.png"
@@ -16,6 +17,7 @@ import { Helmet } from "react-helmet";
 export function Home() {
     return (
         <>
+
             <div className="justify-center text-center p-2 text-lg bg-red-600">
                 Vá até o final da página para receber uma <span className="font-bold bg-yellow-400 text-red-950 px-1">consultoria gratúita.</span>
             </div>
@@ -23,7 +25,15 @@ export function Home() {
                 <header className="flex flex-1 justify-center">
                     <img width={150} src={logo} />
                 </header>
-
+                <div className="fixed bottom-8 right-6 z-50">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5547992479009&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20processo%20de%20capta%C3%A7%C3%A3o%20de%20clientes%20pra%20fechar%20pacientes%20novos%20todos%20os%20dias."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img width={70} src={whats} alt="WhatsApp" />
+                    </a>
+                </div>
 
                 <div className="text-3xl text-center my-4 font-light">E se você <span className="font-bold text-blue-500">preenchesse</span> todos os <span className="font-bold">seus horários</span> com seu <span className="font-bold text-blue-500">serviço mais lucrativo</span>?</div>
 
@@ -32,11 +42,11 @@ export function Home() {
                 <span className="w-auto">Agenda cheia <span className="text-blue-600 font-bold">todos os dias</span></span>
             </div> */}
 
-                <div className="px-4 my-10">
+                {/* <div className="px-4 my-10">
                     <a href="https://api.whatsapp.com/send?phone=5547992479009&text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20processo%20de%20capta%C3%A7%C3%A3o%20de%20clientes%20pra%20fechar%20pacientes%20novos%20todos%20os%20dias.">
                         <button className="bg-blue-500 p-4 text-2xl font-bold rounded-lg">QUERO AUMENTAR MEU FATURAMENTO</button>
                     </a>
-                </div>
+                </div> */}
 
                 <div className="mt-8  flex flex-col items-center gap-8 px-4">
                     <h2 className="text-2xl font-normal">Nossos <span className="text-blue-500">resultados:</span></h2>
