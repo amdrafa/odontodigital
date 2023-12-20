@@ -57,7 +57,7 @@ export function Home() {
                         <div className="text-3xl font-light flex flex-col">
                             <div>Lúcia</div>
                             <div className="font-bold">Alves</div>
-                            <span className="text-lg text-blue-500">CRO 29384-9</span>
+                            {/* <span className="text-lg text-blue-500">CRO 29384-9</span> */}
                             <span className="text-lg text-gray-300">Itajaí, Santa Catarina</span>
                         </div>
                     </div>
