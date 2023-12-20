@@ -35,7 +35,7 @@ export function Home() {
                     </a>
                 </div>
 
-                <div className="text-3xl text-center my-4 font-light">E se você <span className="font-bold text-blue-500">preenchesse</span> todos os <span className="font-bold">seus horários</span> com seu <span className="font-bold text-blue-500">serviço mais lucrativo</span>?</div>
+                <div className="text-3xl text-center my-4 font-light">Garantimos <span className="font-bold text-blue-500">preencher</span> todos os <span className="font-bold">seus horários</span> com seu <span className="font-bold text-blue-500">serviço mais lucrativo</span>.</div>
 
                 {/* <div className="flex text-xl justify-center items-center px-6 gap-2 mb-6">
                 <Calendar className="w-14 h-14" />
